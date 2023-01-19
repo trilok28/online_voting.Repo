@@ -1,0 +1,84 @@
+body{
+    
+    background-color:lightblue;
+}
+
+#headersection h1{
+    text-align: center;
+    font-family: cursive;
+    
+}
+
+#logout{
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: magenta;
+    color: white;
+}
+#back{
+    float: left;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: magenta;
+    color: white;
+}
+#profile{
+    float: left;
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+}
+#group{
+    float: right;
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+}
+#votebtn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:green;
+    color: white;
+
+}
+#grpimg{
+    float: right;
+}
+#mainpanel{
+    padding: 10px;
+}
+#voted{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:grey;
+    color: white;
+}
+#editbtn{
+    
+    padding: 5px;
+    border-radius: 5px;
+    background-color: magenta;
+    color: white;
+}
+#dltbtn{
+    
+    padding-left: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: magenta;
+    color: white;
+}
+#img{
+    
+    padding-left:  10px;
+}
+
+
+#partyhead{
+    float: right;
+}
+hr{
+    color: darkblue;
+    
+}

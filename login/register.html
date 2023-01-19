@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Voting System - Registration</title>
+        <link rel="stylesheet" href="../CSS/stylesheet.css">
+       
+    </head>
+    <body>
+       
+        <style>
+                 #address{
+                     width: 33%;
+                 }
+                 #email{
+                     width:33%;
+                 }
+                 #voterid{
+                     width:33%;
+                 }
+                 #image{
+                     border: 2px solid black;
+                     border-radius: 5px;
+                     padding: 10px;
+                     width: 33%;
+                     
+                 }
+                 #role{
+                     border: 2px solid black;
+                     border-radius: 5px;
+                     padding: 10px;
+                     width: 33%;
+                     
+                 }
+                 #role select{
+                     padding: 10px;
+                 }
+        </style>
+
+        <form action="login.html" method="POST"><button  id="back">back</button></form>
+        <div id="headersection">
+            <h1>Online Voting System</h1><hr>
+            <h3>Voter Registration</h3>
+        </div>
+
+
+        <div id="bodysection">
+            <form action="register.php" method="POST" enctype="multipart/form-data">
+                <input required type="text" name="name" id=".." placeholder="enter name">
+                <input required type="number" name="mobile" id=".." placeholder="enter mobile number"><br><br>
+                <input required type="password" name="password" id=".." placeholder="enter password">
+                <input required type="password" name="cpassword" id=".." placeholder="confirm password"><br><br>
+                <input required type="text" name="voterid" id="voterid" placeholder="enter voter id number"><br><br>
+                <input required type="email" name="email" id="email" placeholder="enter your email address"><br><br>
+                <input required type="address" name="address" id="address" placeholder="enter address"><br><br>
+                
+                <center>
+                <div id="image">
+                    upload image: <input required type="file" name="photo">
+                </div>
+                
+                <br>
+                <div id="role">
+                    choose your role: <select name="role">
+                                        <option value="1">voter</option>
+                                        
+                                    </select>
+                </div>
+                </center>
+               <br>
+                <button type="submit" style=" padding: 5px; border-radius: 5px; background-color: magenta; color: white;">
+                    Register
+                </button><br>
+               already user? <a href="login.html">login here</a>
+            </form>
+        </div>
+</body>
+</html>

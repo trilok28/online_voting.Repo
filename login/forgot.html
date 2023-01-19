@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Voting System - Registration</title>
+        <link rel="stylesheet" href="../CSS/stylesheet.css">
+    </head>
+    <body>
+        <style>
+                 #address{
+                     width: 33%;
+                 }
+                 #email{
+                     width:33%;
+                 }
+                 #voterid{
+                     width:33%;
+                 }
+                 #image{
+                     border: 2px solid black;
+                     border-radius: 5px;
+                     padding: 10px;
+                     width: 33%;
+                     
+                 }
+                 #role{
+                     border: 2px solid black;
+                     border-radius: 5px;
+                     padding: 10px;
+                     width: 33%;
+                     
+                 }
+                 #role select{
+                     padding: 10px;
+                 }
+        </style>
+
+        <div id="headersection">
+            <h1>Online Voting System</h1><hr>
+            <h3>Password Revovery</h3>
+        </div>
+
+
+        <div id="bodysection">
+            <form action="../api/forgot.php" method="POST" enctype="multipart/form-data">
+                
+                <input required type="email" name="email" id="email" placeholder="enter your email address"><br><br>
+                
+               
+                <button type="submit" style=" padding: 5px; border-radius: 5px; background-color: magenta; color: white;">
+                    send mail
+                </button><br><br>
+               already user? <a href="../login.html">login here</a>
+            </form>
+        </div>
+</body>
+</html>
